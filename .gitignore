@@ -1,0 +1,10 @@
+*.xsa
+.vscode
+.__tmp_build.tcl
+wdi_info.xml
+pdi/
+vivado_prj/
+.Xil/
+.vivado_prj/
+bdf_local/
+logs_vivado/
