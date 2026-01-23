@@ -38,7 +38,7 @@ BITSTREAM_XSA_DIR ?= .
 VITIS_EXT_PLAT_PROPS_LOC ?= null
 
 # This is the action used to fetch a custom bdf file locally to use with the Vivado project
-GIT_CLONE_BDF ?= git clone https://github.com/Avnet/bdf -b ve2302-io-dk $(BDF_DIR)
+GIT_CLONE_BDF ?= git clone https://github.com/Avnet/bdf -b master $(BDF_DIR)
 
 # These are set to match what the git repo tracks... 
 CONSTRAINTS_DIR ?= xdc_user_constraints
